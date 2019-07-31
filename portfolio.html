@@ -7,17 +7,21 @@
     </head>
 
     <body>
-        <section class="content">
-            <section class="top-bar">
-                <header>
-                    <h1>James Stacy</h1>
-                </header>
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </section>
+        <div class="container">
+            <!-- Navbar as a heading -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <span class="navbar-brand mb-0 h1">James Stacy</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </nav>
         
             <section class="main">
                 <h1>My Portfolio</h1>
